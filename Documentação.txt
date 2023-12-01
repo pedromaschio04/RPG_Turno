@@ -1,0 +1,19 @@
+Alunos: Pedro Maschio, Thiago Corá
+Documentação do trabalho de POO
+
+As principais classes utilizadas para o funcionamento do jogo são:
+-nó: representa um personagem derrotado.
+-JogadoresDerrotados: uma lista composta dos personagens derrotados durante a execução das batalhas.
+-Personagem: representa todas atirbutos básicos de um personagem.
+-Arqueiro, Ladino, Bardo, Berserker, Druida, Curandeiro: são os tipos de personagens jogáveis.
+-JogoRPG: classe responsável por administrar todas as partidas e movimentações do jogo.
+
+Para a execução do jogo são utilizadas as seguintes as funções:
+-escolherClasse: realiza a criação de um persongem e atribui suas respectivas características de acordo com o tipo do personagem escolhido pelo jogador.
+-sangrar: calcula randomicamente o sangramento causado por um jogador após utilizar um ataque especial.
+-ataqueEspecial: calcula a probabilidade de ocorrer um ataque especial e dano causado por ele.
+-batalhar: administra a batalha entre os dois jogadores, gerenciando o sangramento, os danos causados e as escolhas durante o combate.
+-sortearInicio: sorteia o jogador que irá atacar primeiro no início do combate.
+-partida: é a função principal responsável por administrar a execução das funções citadas acima.
+
+ 
